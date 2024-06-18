@@ -1,25 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2023 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #RESET
+  #Preset
 \*-----------------------------------*/
 *, *::before, *::after{
   margin: 0;
@@ -105,7 +86,7 @@ body{
 
 
 /*-----------------------------------*\
-  #MATERIAL ICON
+  #Fonte e Icone principal
 \*-----------------------------------*/
 
 @font-face {
@@ -137,7 +118,7 @@ body{
 
 
 /*-----------------------------------*\
-  #REUSED STYLE
+  #Estilo reutilizado
 \*-----------------------------------*/
 
 .container{
@@ -290,15 +271,11 @@ body{
 
 
 /*-----------------------------------*\
-  #HEADER
+  #Header
 \*-----------------------------------*/
 
 .header .btn-primary .span{
   display: none;
-}
-
-.logo img{
-  width: 150px;
 }
 
 .header .container, .header-actions{
@@ -430,7 +407,7 @@ body{
 
 
 /*-----------------------------------*\
-  #MAIN
+  #Main
 \*-----------------------------------*/
 main{
   height: calc(100vh - 80px);
@@ -480,7 +457,7 @@ article.container::before{
 
 
 /*-----------------------------------*\
-  #CURRENT WEATHER
+  #Clima Agora
 \*-----------------------------------*/
 .clima-agora-card .weapper{
   margin-block: 12px;
@@ -521,7 +498,7 @@ article.container::before{
 
 
 /*-----------------------------------*\
-  #HIGHLIGHTS
+  #Previsões
 \*-----------------------------------*/
 
 .previsao-card .titulo-2{
@@ -555,7 +532,7 @@ article.container::before{
 
 
 /*-----------------------------------*\
-  #HOURLY FORECAST
+  #Previsão Hora
 \*-----------------------------------*/
 
 .highlights .m-icon{
@@ -715,7 +692,7 @@ article.container::before{
 }
 
 /*-----------------------------------*\
-  #LOADING
+  #Carregando
 \*-----------------------------------*/
 
 .loading{
@@ -743,7 +720,7 @@ article.container::before{
 
 
 /*-----------------------------------*\
-  #ERROR
+  #ERRO
 \*-----------------------------------*/
 
 .error-content{
@@ -905,10 +882,6 @@ article.container::before{
 
   .header .icon-btn{
     display: none;
-  }
-
-  .logo img{
-    width: 200px;
   }
 
   .header{
