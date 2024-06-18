@@ -2,11 +2,6 @@
 
 const chave_api = '3cad099d73c3dd8e15650d209178a18c';
 
-/**
- * 
- * @param {string} URL API url
- * @param {function} callback callback
- */
 export const fetchData = function(URL, callback){
     fetch(`${URL}&appid=${chave_api}`)
         .then(res => res.json())

@@ -8,22 +8,19 @@ Um site de clima dinâmico que fornece informações meteorológicas em tempo re
 - **Pesquisa por Cidade:** Insira o nome de qualquer cidade para obter as condições climáticas atuais.
 - **Dados em Tempo Real:** Atualizações instantâneas das informações meteorológicas através da API da OpenWeather.
 - **Interface Responsiva:** Layout adaptável a diversos tamanhos de tela, garantindo uma boa experiência em dispositivos móveis e desktops.
-## Site Live
-
-[Site]()
 
 ## Como Utilizar
 
 1. Clone o repositório:
 
 ```bash
-  git clone https://github.com/seu-usuario/weathernow.git
+  git clone https://github.com/R3lss/Site-Clima.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
-  cd weathernow
+  cd site-Clima
 ```
 
 3. Abra com a sua IDE
@@ -32,7 +29,7 @@ Um site de clima dinâmico que fornece informações meteorológicas em tempo re
   code .
 ```
 
-4. Abra com Live Server
+4. Abra com Live Server, se não a CORS vai bloquear as requisições à API
 
 ```bash
   npm run start
