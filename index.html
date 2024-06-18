@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Indaiatuba</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="search-view" data-search-view>
+
+                <div class="search-wrapper">
+                    <input type="search" name="search" placeholder="Procure a Cidade..." autocomplete="off" class="search-field " data-search-field>
+                    
+                    <span class="m-icon leading-icon">search</span>
+
+                    <button class="icon-btn leading-icon tem-estado" aria-label="close search" data-search-toggler>
+                        <span class="m-icon">arrow_back</span>
+                    </button>
+
+            </div>
+
+            <div class="procurar-resultado" data-search-result></div>
+        </div>
+
+        <div class="header-actions">
+
+            <button class="icon-btn tem-estado" aria-label="open search" data-search-toggler>
+                <span class="m-icon icon">search</span>
+            </button>
+
+            <a href="#/current-location" class="btn-primario tem-estado" data-current-location-btn>
+                <span class="m-icon">my_location</span>
+
+                <span class="span">Localização atual</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    </header>
+
+
+
+    <main>
+        <article class="container" data-container>
+            <div class="conteudo-esquerda">
+                <section class="section clima-agora" aria-label="current weather" data-current-weather></section>
+
+                <section class="section previsao" aria-labelledby="forecast-label" data-5-day-forecast></section>
+            </div>
+            
+
+            <div class="conteudo-direita">
+
+                <section class="section highlights" aria-labelledby="highlights-label" data-highlights></section>
+
+                <section class="section previsao-hora" aria-label="hourly forecast" data-hourly-forecast></section>
+
+                <footer class="footer">
+                    <p class="body-3">
+                        Rodando com <a href="https://openweathermap.org/api" title="OpenWeather Api" target="_blank" rel="noopener">
+                            <img src="assets/imagens/openweather.png" width="150" height="30" loading="lazy" alt="OpenWeather">
+                        </a>
+                    </p>
+                </footer>
+            </div>
+
+            <div class="loading" data-loading></div>
+
+        </article>
+    </main>
+
+    <section class="error-content" data-error-content>
+        <h2 class="heading">404</h2>
+        <p class="body-1">Página não encontrada!</p>
+
+        <a href="#/weather?lat=-23.084229579180285&lon=-47.21714107885926" class="btn-primario">
+            <span class="span">Volte</span>
+        </a>
+
+    </section>
+
+    <script type="module" src="assets/js/app.js"></script>
+    <script type="module" src="assets/js/route.js"></script>
+</body>
+</html>
